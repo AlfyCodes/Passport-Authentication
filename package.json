@@ -2,9 +2,10 @@
   "name": "PassportAuth",
   "version": "1.0.0",
   "description": "Passport Authentication with Node.js",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,5 @@
     "mongoose": "^5.10.7",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
   }
 }
