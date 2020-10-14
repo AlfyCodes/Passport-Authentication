@@ -3,10 +3,8 @@ Built an authentication application that can handle logins, registers and access
 
 I used MongoDB Atlas, Node.Js, Express, and Passport.
 
-Installs.
+# Installs
 
-npm i express bcryptjs passport passport-local ejs express-ejs-layouts mongoose connect-flash express-session
+* npm i express, bcryptjs, passport, passport-local, ejs, express-ejs-layouts, mongoose, connect-flash, express-session
 
-npm i -D nodemon 
-
-Then you can npm run dev
+* npm i -D nodemon (npm run dev)
